@@ -202,8 +202,6 @@
     
     (if is-valid
         (let (
-              ;; (payment-1 (contract-call? sbtc-token transfer owner-cut licensee (get owner asset-data) none))
-              ;; (payment-2 (contract-call? sbtc-token transfer platform-cut licensee platform-address none))
               (payment-1 (as-contract (contract-call? sbtc-token transfer owner-cut tx-sender (get owner asset-data) none)))
               (payment-2 (as-contract (contract-call? sbtc-token transfer platform-cut tx-sender platform-address none)))
 
