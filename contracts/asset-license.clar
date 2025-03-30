@@ -12,10 +12,10 @@
 (define-constant ERR_REQUEST_NOT_FOUND u110)
 (define-constant ERR_ASSET_DISABLED u111)         ;; Asset is disabled
 
-(define-constant platform-address (as-contract 'SP1KK2VMSSTSK1BY64SG2WFFFTMAGCY15FYTA90BS))
+(define-constant platform-address (as-contract 'SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4))
 (define-constant platform-fee-rate u10) ;; 10% fee
 
-(define-constant sbtc-token 'SP1KK2VMSSTSK1BY64SG2WFFFTMAGCY15FYTA90BS.sbtc-token)
+(define-constant sbtc-token 'SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token)
 
 ;; ---------------------- Data Storage ----------------------
 (define-data-var asset-counter uint u0)
