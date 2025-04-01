@@ -18,13 +18,6 @@ This project allows users to manage digital assets securely on-chain while stori
 - **Blockchain**: Stacks Testnet
 - **Deployment**: Vercel
 
-## Setup
-1. Clone the repo: `git clone https://github.com/yourusername/asset-license-marketplace.git`
-2. Install dependencies: `npm install`
-3. Configure environment variables in `.env.local` (see `.env.example`).
-4. Deploy the contract to Stacks Testnet.
-5. Run locally: `npm run dev`
-
 ## Contract Details
 - **Assets**: Stored with owner, name, metadata, status, price, duration, licensed, and disabled flags.
 - **Licenses**: Managed via requests and claims with sBTC payments.
