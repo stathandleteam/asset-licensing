@@ -14,7 +14,7 @@
 
 ;; (define-constant platform-address (as-contract 'ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT))
 (define-constant platform-fee-rate u10) ;; 10% fee
-(define-constant sbtc-token 'ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-token)
+;; (define-constant sbtc-token 'ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-token)
 (define-constant platform-address (as-contract 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM)) ;; Devnet deployer
 ;; (define-constant platform-fee-rate u10) ;; 10% fee
 ;; (define-constant sbtc-token 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.sbtc) ;; Devnet sBTC;; ---------------------- Data Storage ----------------------
