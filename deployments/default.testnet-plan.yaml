@@ -10,31 +10,31 @@ plan:
       transactions:
         - requirement-publish:
             contract-id: ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-registry
-            remap-sender: ST3F40H1NSQYHBCF7VGW5VVW022KGYJWW20ZYGQ30
+            remap-sender: ST24XFPQ5GK34EYXW21DGP75Y58NP2HE2PPQKDWSR
             remap-principals:
-              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST3F40H1NSQYHBCF7VGW5VVW022KGYJWW20ZYGQ30
+              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST24XFPQ5GK34EYXW21DGP75Y58NP2HE2PPQKDWSR
             cost: 112090
             path: "./.cache/requirements/ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-registry.clar"
             clarity-version: 3
         - requirement-publish:
             contract-id: ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-token
-            remap-sender: ST3F40H1NSQYHBCF7VGW5VVW022KGYJWW20ZYGQ30
+            remap-sender: ST24XFPQ5GK34EYXW21DGP75Y58NP2HE2PPQKDWSR
             remap-principals:
-              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST3F40H1NSQYHBCF7VGW5VVW022KGYJWW20ZYGQ30
+              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST24XFPQ5GK34EYXW21DGP75Y58NP2HE2PPQKDWSR
             cost: 47600
             path: "./.cache/requirements/ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-token.clar"
             clarity-version: 3
         - requirement-publish:
             contract-id: ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-deposit
-            remap-sender: ST3F40H1NSQYHBCF7VGW5VVW022KGYJWW20ZYGQ30
+            remap-sender: ST24XFPQ5GK34EYXW21DGP75Y58NP2HE2PPQKDWSR
             remap-principals:
-              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST3F40H1NSQYHBCF7VGW5VVW022KGYJWW20ZYGQ30
+              ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT: ST24XFPQ5GK34EYXW21DGP75Y58NP2HE2PPQKDWSR
             cost: 41510
             path: "./.cache/requirements/ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-deposit.clar"
             clarity-version: 3
         - contract-publish:
             contract-name: asset-license
-            expected-sender: ST3F40H1NSQYHBCF7VGW5VVW022KGYJWW20ZYGQ30
+            expected-sender: ST24XFPQ5GK34EYXW21DGP75Y58NP2HE2PPQKDWSR
             cost: 14583
             path: contracts/asset-license.clar
             anchor-block-only: true
