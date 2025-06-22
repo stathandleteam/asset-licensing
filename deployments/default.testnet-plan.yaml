@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://stacks-node-api.testnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: asset-license
+            expected-sender: ST15Q1SWJ4W269NKHVZV9AK4RH2TEVEKTGW2Y9GS9
+            cost: 14586
+            path: contracts/asset-license.clar
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.1"
