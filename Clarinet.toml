@@ -5,8 +5,10 @@ authors = []
 telemetry = false
 cache_dir = './.cache'
 
+
 [[project.requirements]]
 contract_id = 'ST1F7QA2MDF17S807EPA36TSS8AMEFY4KA9TVGWXT.sbtc-deposit'
+
 [contracts.asset-license]
 path = 'contracts/asset-license.clar'
 clarity_version = 3
