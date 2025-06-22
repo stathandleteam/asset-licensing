@@ -10,7 +10,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: asset-license
-            expected-sender: STQ9HV5G7QX71XB8M708G37E0XQN4M8ZJNM28600
+            expected-sender: ST35VMRDAQ1K02F6F09PVTJWYTADJ0MQE2461M8N3
             cost: 14586
             path: contracts/asset-license.clar
             anchor-block-only: true
